@@ -1,0 +1,35 @@
+from turtle import *
+hideturtle()
+pensize(5)
+speed(0)
+bgcolor("lightcyan")
+
+penup()
+goto(-200, -80)
+pendown()
+color("blue")
+circle(80)
+
+penup()
+goto(0, -80)
+pendown()
+color("black")
+circle(80)
+
+penup()
+goto(200, -80)
+pendown()
+color("red")
+circle(80)
+
+penup()
+goto(-100, -160)
+pendown()
+color("yellow")
+circle(80)
+
+penup()
+goto(100, -160)
+pendown()
+color("green")
+circle(80)
