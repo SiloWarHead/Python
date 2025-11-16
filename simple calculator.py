@@ -13,6 +13,9 @@ def divide(n1, n2):
     else:
         return n1 / n2
 
+def squared(n1, n2):
+    return n1*n1
+
 op = input("Choose Operation (+, -, *, /): ")
 n1 = float(input("Num1: "))
 n2 = float(input("Num2: "))
@@ -26,4 +29,4 @@ elif op == "*":
 elif op == "/":
     print(n1, "/", n2, "=", divide(n1, n2))
 else:
-    print("Invalid Keyword!")  # Fixed spelling
+    print("Invalid Keyword!") 
